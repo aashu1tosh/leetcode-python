@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
+    def findMaxConsecutiveOnes(self, nums: list[int]) -> int:
         m1 = 0
         count = 0
         for data in nums:
